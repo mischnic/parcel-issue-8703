@@ -1,0 +1,1 @@
+{"mappings":"AAAA;IACG,OAAO,SAAM;IAEb,MAAM;CAKR","sources":["index.ts"],"sourcesContent":["export class Example {\n   someKey = \"\";\n\n   method() {\n      const data = {} as Record<string, this[\"someKey\"]>;\n\n      return data;\n   }\n}\n"],"names":[],"version":3,"file":"index.d.ts.map"}

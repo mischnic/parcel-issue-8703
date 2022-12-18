@@ -1,0 +1,1 @@
+{"mappings":"AAAO,MAAM;IACV,UAAU,GAAG;IAEb,SAAS;QACN,MAAM,OAAO,CAAC;QAEd,OAAO;IACV;AACH","sources":["index.ts"],"sourcesContent":["export class Example {\n   someKey = \"\";\n\n   method() {\n      const data = {} as Record<string, this[\"someKey\"]>;\n\n      return data;\n   }\n}\n"],"names":[],"version":3,"file":"index.js.map"}
